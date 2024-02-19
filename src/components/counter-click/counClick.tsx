@@ -11,7 +11,7 @@ export const CounterClick = () => {
   }, [count]);
 
   const handleClick = () => {
-    console.log('cliquei');
+    console.log('cliquei  ');
     setCount(count + 1);
   };
   return (
